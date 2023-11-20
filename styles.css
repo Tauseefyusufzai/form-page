@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+body:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.topnav{
+    background-color: blueviolet;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+.topnav:hover{
+    opacity: 0.8;
+}
+form{
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px blueviolet;
+    padding: 50px;
+    margin: 2% 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+input[type=text], input[type=number], input[type=date], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+  button {
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+  button:hover{
+  opacity: 0.8;
+  }
+  
